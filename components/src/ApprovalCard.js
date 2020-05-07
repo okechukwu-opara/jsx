@@ -1,0 +1,21 @@
+import React from 'react';
+
+const ApprovalCard = props => {
+    // console.log(props);
+    // console.log(props.children);
+    
+    return (
+        <div className="ui card">
+        <div className="content">{props.children}</div>
+        <div className="extra content">
+        <div className="ui two buttons">
+            <button className="ui green basic button">Approve</button>
+            <button className="ui red basic button">Decline</button>
+        </div>
+        </div>
+        </div>
+    );
+};
+
+export default ApprovalCard;
+
