@@ -2,7 +2,7 @@
   "name": "seasons",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://okechukwu-opara.github.io/seasons",
+  "homepage": "https://okechukwu-opara.github.io/jsx/seasons",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
